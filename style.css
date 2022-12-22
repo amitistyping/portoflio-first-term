@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.main-wrapper {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    height: 100%;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.nav-container ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar {
+    height: 100px;
+}
+
+.nav-container,
+.header-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.nav-list a {
+    /* for that card look */
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+p a {
+    color: #210088;
+    font-weight: bold;
+}
+
+.nav-list li {
+    margin-left: 20px;
+}
+
+.logo {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-list a:hover {
+    color: #555;
+    transform: scale(1.2);
+}
+
+.header {
+    min-height: 400px;
+}
+
+.header img {
+    max-width: 400px;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.resume-wrapper {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgb(0, 0, 0);
+    height: 950px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.resume-wrapper a {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.resume-container {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 10px;
+    padding: 30px 20px;
+    display: grid;
+    background-color: rgb(245, 245, 245);
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 100px;
+}
+
+.resume-container h1 {
+    margin-bottom: 5px;
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.profile {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /* border-bottom: black 2px solid; */
+    /* padding-bottom: 10px; */
+    margin-bottom: 10px;
+}
+
+.profile-title {
+    font-size: 1.2em;
+}
+
+.profile-description {
+    font-size: 0.8em;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.resume-section {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.resume-section-overview {
+    margin-top: 10px;
+}
+
+.resume-section-title {
+    font-size: 1.2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: black 2px solid;
+}
+
+.section-item-heading {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.section-item-subheading {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.section-item-subheading-description {
+    font-size: 0.9em;
+}
+
+.section-item-datelocation {
+    display: flex;
+    gap: 20px;
+    font-size: 0.8em;
+}
+
+.section-item-description {
+    padding-left: 15px;
+    font-size: 0.9em;
+}
+
+.skills-section {
+    margin-top: 10px;
+    font-size: 0.8em;
+    display: flex;
+    gap: 10px;
+}
+
+.skill {
+    /* for that card look */
+    box-shadow: rgba(0, 0, 0, 0.178) 0px 2px 8px;
+    border-radius: 4px;
+    padding: 8px;
+    margin-right: 5px;
+}
+
+.profile-description a {
+    /* remove default link styling */
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills-container-item {
+    /* for that card look */
+    box-shadow: rgba(0, 0, 0, 0.178) 0px 2px 8px;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 3px;
+}
+
+.goals-list {
+    margin-left: 20px;
+}
